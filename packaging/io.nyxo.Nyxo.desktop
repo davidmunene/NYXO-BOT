@@ -1,0 +1,25 @@
+[Desktop Entry]
+Type=Application
+Name=Kings
+GenericName=Desktop Companion
+Comment=Kings — your desktop AI companion
+Exec=@BIN@/nyxo
+Icon=io.nyxo.Nyxo
+Terminal=false
+Categories=Utility;Accessories;
+Keywords=assistant;ai;robot;companion;pet;chat;nyxo;kings;jarvis;
+StartupNotify=false
+StartupWMClass=nyxo
+Actions=Chat;Settings;Quit;
+
+[Desktop Action Chat]
+Name=Chat with Kings
+Exec=@BIN@/nyxo --chat
+
+[Desktop Action Settings]
+Name=Kings Settings
+Exec=@BIN@/nyxo --settings
+
+[Desktop Action Quit]
+Name=Quit Kings
+Exec=@BIN@/nyxo --quit

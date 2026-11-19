@@ -1,0 +1,21 @@
+[project]
+name = "nyxo"
+version = "1.0.0"
+description = "NYXO — Your desktop. Your companion. Your AI. An animated AI desktop companion for Ubuntu."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = ["PySide6-Essentials>=6.7", "psutil>=5.9", "vosk>=0.3.45", "piper-tts>=1.3"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "pytest-qt>=4.4"]
+
+[project.scripts]
+nyxo = "nyxo.main:main"
+
+[tool.setuptools.packages.find]
+include = ["nyxo*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+qt_api = "pyside6"

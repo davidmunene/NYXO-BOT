@@ -1,0 +1,113 @@
+{
+  "frame_size": 256,
+  "states": {
+    "idle": {
+      "file": "idle.png",
+      "frames": 24,
+      "fps": 10,
+      "loop": true
+    },
+    "walking": {
+      "file": "walking.png",
+      "frames": 12,
+      "fps": 12,
+      "loop": true
+    },
+    "running": {
+      "file": "running.png",
+      "frames": 6,
+      "fps": 14,
+      "loop": true
+    },
+    "sleeping": {
+      "file": "sleeping.png",
+      "frames": 12,
+      "fps": 4,
+      "loop": true
+    },
+    "thinking": {
+      "file": "thinking.png",
+      "frames": 12,
+      "fps": 6,
+      "loop": true
+    },
+    "happy": {
+      "file": "happy.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    },
+    "excited": {
+      "file": "excited.png",
+      "frames": 8,
+      "fps": 10,
+      "loop": true
+    },
+    "confused": {
+      "file": "confused.png",
+      "frames": 12,
+      "fps": 6,
+      "loop": true
+    },
+    "sad": {
+      "file": "sad.png",
+      "frames": 10,
+      "fps": 5,
+      "loop": true
+    },
+    "talking": {
+      "file": "talking.png",
+      "frames": 8,
+      "fps": 9,
+      "loop": true
+    },
+    "listening": {
+      "file": "listening.png",
+      "frames": 8,
+      "fps": 6,
+      "loop": true
+    },
+    "working": {
+      "file": "working.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    },
+    "error": {
+      "file": "error.png",
+      "frames": 6,
+      "fps": 8,
+      "loop": true
+    },
+    "celebrating": {
+      "file": "celebrating.png",
+      "frames": 12,
+      "fps": 10,
+      "loop": true
+    },
+    "waving": {
+      "file": "waving.png",
+      "frames": 8,
+      "fps": 8,
+      "loop": true
+    },
+    "dragged": {
+      "file": "dragged.png",
+      "frames": 6,
+      "fps": 8,
+      "loop": true
+    },
+    "blink": {
+      "file": "blink.png",
+      "frames": 3,
+      "fps": 14,
+      "loop": false
+    },
+    "glance": {
+      "file": "glance.png",
+      "frames": 10,
+      "fps": 5,
+      "loop": false
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "uuid": "nyxo-helper@nyxo.io",
+  "name": "NYXO Helper",
+  "description": "Lets the NYXO desktop companion know when a full-screen app is active so it can step aside. Exposes only a yes/no flag; no window titles or contents.",
+  "shell-version": ["45", "46", "47", "48", "49", "50"],
+  "url": "https://localhost/nyxo",
+  "version": 1
+}
